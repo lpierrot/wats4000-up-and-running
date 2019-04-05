@@ -1,24 +1,24 @@
 <template>
   <div id="app">
-    <h1>Markdown Editor</h1>
+    <h1>Markdown Edit</h1>
     <editor></editor>
   </div>
 </template>
 
 <script>
-import Editor from '@/components/Editor'
+import Editor from "@/components/Editor";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     Editor
   }
-}
+};
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
